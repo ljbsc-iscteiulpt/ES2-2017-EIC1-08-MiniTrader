@@ -26,6 +26,7 @@ import mt.filter.AnalyticsFilter;
  * 
  * @author Groupo 08 ESII 2016/17
  *Engenharia de Software
+ *Novas alterações para o trabalho
  */
 
 // não se assustem, so estou a experimentar
