@@ -27,6 +27,8 @@ import mt.filter.AnalyticsFilter;
  * @author Group 78
  *
  */
+
+// não se assustem, so estou a experimentar
 public class MicroServer implements MicroTraderServer {
 	
 	public static void main(String[] args) {
