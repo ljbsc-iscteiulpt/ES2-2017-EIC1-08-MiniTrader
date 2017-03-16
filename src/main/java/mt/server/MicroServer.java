@@ -25,7 +25,7 @@ import mt.filter.AnalyticsFilter;
  * to do the business logic of stock transactions between buyers and sellers.
  * 
  * @author Groupo 08 ESII 2016/17
- *
+ *Engenharia de Software
  */
 
 // não se assustem, so estou a experimentar
