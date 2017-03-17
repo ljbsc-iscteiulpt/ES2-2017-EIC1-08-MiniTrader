@@ -9,7 +9,7 @@ import mt.client.Session;
 import mt.client.ui.MicroTraderClientUI;
 import mt.comm.ClientComm;
 import mt.comm.impl.ClientCommImpl;
-
+// vericação local
 public class MicroTraderClientImpl implements MicroTraderClient {
 	
 	public static void main(String args[]) {
