@@ -238,6 +238,10 @@ public class MicroServer implements MicroTraderServer {
 		LOGGER.log(Level.INFO, "Processing new order...");
 
 		Order o = msg.getOrder();
+		
+		
+		//A quantidade de compra e venda não pode ser inferior a 10
+		if(o.getNumberOfUnits()>= 10){
 
 		// save the order on map
 		saveOrder(o);
@@ -261,6 +265,7 @@ public class MicroServer implements MicroTraderServer {
 		// reset the set of changed orders
 		updatedOrders = new HashSet<>();
 
+		}
 	}
 
 	/**
