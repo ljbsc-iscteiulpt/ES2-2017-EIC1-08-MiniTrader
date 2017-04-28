@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <XML>
+<Order Id="1" Price="4.0" Stock="TRE" Type="Sell" Units="7925"/>
+<Order Id="2" Price="4.0" Stock="TRE" Type="Buy" Units="244"/>
+<Order Id="3" Price="55.0" Stock="TWE" Type="Buy" Units="8945"/>
 </XML>

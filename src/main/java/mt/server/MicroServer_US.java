@@ -47,15 +47,15 @@ import mt.filter.AnalyticsFilter;
  */
 
 // não se assustem, so estou a experimentar
-public class MicroServer implements MicroTraderServer {
+public class MicroServer_US implements MicroTraderServer {
 
 	public static void main(String[] args) {
 		ServerComm serverComm = new AnalyticsFilter(new ServerCommImpl());
-		MicroTraderServer server = new MicroServer();
+		MicroTraderServer server = new MicroServer_US();
 		server.start(serverComm);
 	}
 
-	public static final Logger LOGGER = Logger.getLogger(MicroServer.class.getName());
+	public static final Logger LOGGER = Logger.getLogger(MicroServer_US.class.getName());
 
 	/**
 	 * Server communication
@@ -83,7 +83,7 @@ public class MicroServer implements MicroTraderServer {
 	/**
 	 * Constructor
 	 */
-	public MicroServer() {
+	public MicroServer_US() {
 		LOGGER.log(Level.INFO, "Creating the server...");
 		orderMap = new HashMap<String, Set<Order>>();
 		updatedOrders = new HashSet<>();
